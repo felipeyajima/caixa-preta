@@ -1,0 +1,8 @@
+docker build --rm -t felipebatista765/turnon:latest -t felipebatista765/turnon:v1 .
+
+
+docker login
+
+
+docker push felipebatista765/turnon:latest
+docker push felipebatista765/turnon:v1
