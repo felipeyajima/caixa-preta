@@ -1,8 +1,8 @@
 FROM python:3.12
 
-WORKDIR /app
+WORKDIR /tmp
 
-COPY . /app
+COPY . /tmp
 
 RUN pip install --trusted-host pypi.python.org -r requirements.txt 
 
